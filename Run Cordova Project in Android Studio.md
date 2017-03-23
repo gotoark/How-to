@@ -10,9 +10,9 @@
   * [Run Project](#run-project)
   * [Conclusion](#conclusion)
 
-## Getting Started
-
-                A Simple Guide to import existing Cordova Projects to Android Studio and Run 
+## Getting Started               
+  
+  A Simple Guide to import existing Cordova Projects to Android Studio and Run 
 
 ### Prerequisites
 
@@ -40,10 +40,10 @@ In Android Studio
    ### Prepare Cordova Project
 
       Run this Command 
-
       ```
       $ cordova prepare android
       ```
+      
    
     It will Prepares the Cordova Project for Android
 
@@ -72,11 +72,11 @@ In Android Studio
 
    * Once the Gradle Build finished Click the RUN Icon or shift+F10 to Run the Project
 
-  ###Note :no_entry_sign:
+  ##Note :no_entry_sign: 
 
 ## Conclusion
-
-    :astonished:  Yea hooo we did it..!!!!!!!  :raised_hands:  :smiley: 
+   
+   :astonished: Yea hooo we did it  :raised_hands:  :smiley: 
 
 * [Official Documentation](https://cordova.apache.org/docs/en/latest/guide/platforms/android/#opening-a-project-in-android-studio) - by Cordova
 
