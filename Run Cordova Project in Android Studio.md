@@ -27,7 +27,7 @@ In Android Studio
 
    * Choose File->Settings or (Ctrl+Alt+s) 
    * Navigate to Plugins Tab
-   * Choose ##Install JetBrains Plugins
+   * Choose Install JetBrains Plugins
    * Search for Phonegap/Cordova Plugin
    * Install the Plugin
    * restart Android Studio
