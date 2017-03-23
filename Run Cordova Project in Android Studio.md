@@ -72,6 +72,7 @@ In Android Studio
 
    * Once the Gradle Build finished Click the RUN Icon or shift+F10 to Run the Project
 
+  ###Note :no_entry_sign:
 
 ## Conclusion
 
