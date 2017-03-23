@@ -40,9 +40,9 @@ In Android Studio
    ### Prepare Cordova Project
 
       Run this Command 
-      ```
+  
       $ cordova prepare android
-      ```
+    
       
    
     It will Prepares the Cordova Project for Android
@@ -52,9 +52,8 @@ In Android Studio
 
       Run this Command 
 
-      ```
       $ cordova build android
-      ```
+     
 
     It will Builds the Cordova Project for Android. (If the Required Gradle is Not Available it will be downloaded Automatically)
 
