@@ -45,7 +45,7 @@ In Android Studio
       $ cordova prepare android
       ```
    
-    ###It will Prepares the Cordova Project for Android
+    It will Prepares the Cordova Project for Android
 
    
    ### Build Cordova Project
