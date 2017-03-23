@@ -16,8 +16,6 @@
 
 ### Prerequisites
 
-### Prerequisites
-
 * Any Cordova Project
 * Cordova CLI
 * Android Studio
@@ -45,10 +43,9 @@ In Android Studio
 
       ```
       $ cordova prepare android
-
       ```
    
-    It will Prepares the Cordova Project for Android
+    ###It will Prepares the Cordova Project for Android
 
    
    ### Build Cordova Project
