@@ -21,11 +21,13 @@
 
 ## Getting Started               
   
-  A Simple Guide to import existing Cordova Projects to Android Studio and Run 
+  A Simple Guide for RESTful Web Services in SPRING and HIBERNATE
 
 ### Pre-Requisites
 
 * [Spring Tools Suite (Version: 3.6.4.RELEASE or above)](https://spring.io/tools/sts)
+* [Apache Tomcat(7.0.77 or above)](https://tomcat.apache.org/download-70.cgi)
+* [MySQL Server (5.1 or above)](https://www.mysql.com/downloads/)
 * [Java (1.7.0_79 or above)](https://www.java.com/en/download/)
 * [Browser (any) ](https://www.google.com/chrome/browser/desktop/index.html)
 * [Post Man (Optional)](https://www.getpostman.com/apps)
@@ -587,8 +589,6 @@ Paste this code inside home.jsp
 	</html>
    
    
-
-  ##Note :no_entry_sign: 
 
 ## Conclusion
    
