@@ -644,44 +644,66 @@ Paste this code inside home.jsp
    
 ## Errors & Solutions   
   
-  # 1
+  # 1 - Error On Bean Class
    ![Error](/Assets/SpringWebService/error1.png?raw=true "Error")
+    
+   Add The Correct Dependency
      
    ![Solution](/Assets/SpringWebService/sol1.png?raw=true "Solution") 
-   # 2
+   # 2 - The Prefix "tx" for Eleent "tx-annotation-driven" is not found
    ![Error](/Assets/SpringWebService/error2.png?raw=true "Error")
      
+   Add **xmlns:tx="http://www.springframework.org/schema/tx" ** in top Beans
+   
    ![Solution](/Assets/SpringWebService/sol2.png?raw=true "Solution") 
-   # 3
+   # 3 - Type mismatch: cannot convert from java.util.List to org.hibernate.mapping.List
+   
    ![Error](/Assets/SpringWebService/error3.png?raw=true "Error")
      
+   import this  java.util.List;
+     
    ![Solution](/Assets/SpringWebService/sol3.png?raw=true "Solution") 
-   # 4
+   # 4 - No Such Bean Definition Exception
    ![Error](/Assets/SpringWebService/error4.png?raw=true "Error")
      
-   ![Solution](/Assets/SpringWebService/sol4.png?raw=true "Solution") 
-   # 5
-   ![Error](/Assets/SpringWebService/error5.png?raw=true "Error")
+   Check the context:component-scan  
      
+   ![Solution](/Assets/SpringWebService/sol4.png?raw=true "Solution") 
+   # 5  - No Such Bean Definition Exception : No bean named "transactionManager"
+   ![Error](/Assets/SpringWebService/error5.png?raw=true "Error")
+      
+   check the @Transcational Param value
+   
    ![Solution](/Assets/SpringWebService/sol5.png?raw=true "Solution") 
-   # 6
+   # 6 - Insertorg.hibernate.exception.GenericJDBCException : Could not execute statement
    ![Error](/Assets/SpringWebService/error6.png?raw=true "Error")
      
+   Check the Db credentials in Beans
+   
    ![Solution](/Assets/SpringWebService/sol6.png?raw=true "Solution") 
-   # 7
+   # 7 -Insertorg.hibernate.hql.internal.ast.QuerySyntaxException : employee is not Mapped [FROM employee]
    ![Error](/Assets/SpringWebService/error7.png?raw=true "Error")
      
+   Check the CLASS name is matched with the Create Query String
+   
    ![Solution](/Assets/SpringWebService/sol7.png?raw=true "Solution") 
-   # 8
+   # 8 - java.lang.IllegalArgumentException : No Converter Found for return value of type : class java.util.HashMap
    ![Error](/Assets/SpringWebService/error8.png?raw=true "Error")
      
+   Check weather the Dependency is added or Not  
+     
    ![Solution](/Assets/SpringWebService/sol8.png?raw=true "Solution") 
-   # 9
+   # 9 -  java.lang.IllegalArgumentException : No Converter Found for return value of type : class java.util.HashMap
    ![Error](/Assets/SpringWebService/error9.png?raw=true "Error")
      
+   Check the Data type Conversions  
+     
    ![Solution](/Assets/SpringWebService/sol9.png?raw=true "Solution") 
-    # 10
+   
+   # 10 - 400 - Required String Parameter 'emp_password' is not Present
    ![Error](/Assets/SpringWebService/error10.png?raw=true "Error")
+   
+ Check the Requesting parameter name   
      
    ![Solution](/Assets/SpringWebService/sol10.png?raw=true "Solution") 
 
