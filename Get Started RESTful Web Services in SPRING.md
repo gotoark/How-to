@@ -630,7 +630,7 @@ Paste this code inside home.jsp
 
    ![HomePage](/Assets/SpringWebService/homePage.png?raw=true "homePage")
    
-   ![Postman](/Assets/SpringWebService/postman.png?raw=true "Postman")
+   ![Postman](/Assets/SpringWebService/postmantest.png?raw=true "Postman")
 
 ## Conclusion
    
