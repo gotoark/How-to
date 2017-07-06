@@ -39,17 +39,17 @@
    * Open **Spring Tools Suite**(aka STS)  
    * Choose **File** -> **New** -> **Spring Legacy Project**
    
-      ![Open Spring Tools Suite](/Assets/1.png?raw=true "Open Spring Tools Suite") 
+      ![Open Spring Tools Suite](/Assets/SpringWebService/1.png?raw=true "Open Spring Tools Suite") 
    * Enter the **Project Name** and Click **Next**
    
-      ![Enter the Project Name](/Assets/2.png?raw=true "Enter the Project Name") 
+      ![Enter the Project Name](/Assets/SpringWebService/2.png?raw=true "Enter the Project Name") 
     
    * Enter Package Name which Means **com.companyname.projectname**
         
-      ![Enter the Package Name](/Assets/3.png?raw=true "Enter the Package Name") 
+      ![Enter the Package Name](/Assets/SpringWebService/3.png?raw=true "Enter the Package Name") 
    * Finish
  
-      ![Project Structure](/Assets/4.png?raw=true "Project Structure")
+      ![Project Structure](/Assets/SpringWebService/4.png?raw=true "Project Structure")
  
         This wil Creates a new  **SPRING MVC*** Project with Default **Configurations,Controller ,Dependecies and Servlet** 
    
