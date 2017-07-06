@@ -17,7 +17,7 @@
      11. [Run On Server](#run-on-server)
      12. [Test REST Urls ](#test-rest-urls)
      13. [Final Result](final-result)
-  * [Errors & Solutions](#run-project)
+  * [Errors & Solutions](#errors-&-Solutions)
   * [Conclusion](#conclusion)
 
 ## Getting Started               
@@ -614,13 +614,13 @@ Paste this code inside home.jsp
    
  ![Home.jsp](/Assets/SpringWebService/10.png?raw=true "Home.jsp")
  
-#### Run On Server
+## Run On Server
 
 * Save the Project and Run On Your Server
 
  ![Server.jsp](/Assets/SpringWebService/server.png?raw=true "Server.jsp")
 
-#### Test REST Urls
+## Test REST Urls
 
 * Open Your Browser type [http://localhost:8080/restfulwebservice/](http://localhost:8080/restfulwebservice/)
 
@@ -636,15 +636,60 @@ Paste this code inside home.jsp
 * **GET EMPLOYEE JSON** - [http://localhost:8080/restfulwebservice/getEmployee?emp_ID=2](http://localhost:8080/restfulwebservice/getEmployee?emp_ID=2)
 * **GET EMPLOYEE Object** - [http://localhost:8080/restfulwebservice/getEmployeeObject?emp_ID=2](http://localhost:8080/restfulwebservice/getEmployeeObject?emp_ID=2)
       
-### Final Result
+## Final Result
 
    ![Broweser Result](/Assets/SpringWebService/browser.png?raw=true "Broweser Result")
    
    ![Postman](/Assets/SpringWebService/postmantest.png?raw=true "Postman")
+   
+## Errors & Solutions   
+  
+  # 1
+   ![Error](/Assets/SpringWebService/error1.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol1.png?raw=true "Solution") 
+   # 2
+   ![Error](/Assets/SpringWebService/error2.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol2.png?raw=true "Solution") 
+   # 3
+   ![Error](/Assets/SpringWebService/error3.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol3.png?raw=true "Solution") 
+   # 4
+   ![Error](/Assets/SpringWebService/error4.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol4.png?raw=true "Solution") 
+   # 5
+   ![Error](/Assets/SpringWebService/error5.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol5.png?raw=true "Solution") 
+   # 6
+   ![Error](/Assets/SpringWebService/error6.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol6.png?raw=true "Solution") 
+   # 7
+   ![Error](/Assets/SpringWebService/error7.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol7.png?raw=true "Solution") 
+   # 8
+   ![Error](/Assets/SpringWebService/error8.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol8.png?raw=true "Solution") 
+   # 9
+   ![Error](/Assets/SpringWebService/error9.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol9.png?raw=true "Solution") 
+    # 10
+   ![Error](/Assets/SpringWebService/error10.png?raw=true "Error")
+     
+   ![Solution](/Assets/SpringWebService/sol10.png?raw=true "Solution") 
 
 ## Conclusion
    
-   :astonished: Yea hooo we did it  :raised_hands:  :smiley: 
+   :astonished: Yea hooo we did it  :raised_hands:  :smiley:  
+   
+   Click here for Project [Source Code](https://github.com/gotoark/Spring-Projects/tree/master/RestFulWebService)
    
 * [Official Documentation](https://spring.io/guides/gs/rest-service/) - by Pivotal
 
