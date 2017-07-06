@@ -32,6 +32,7 @@
 * [Java (1.7.0_79 or above)](https://www.java.com/en/download/)
 * [Browser (any) ](https://www.google.com/chrome/browser/desktop/index.html)
 * [Post Man (Optional)](https://www.getpostman.com/apps)
+* [JSONView Chrome Plugin (Readable JSON format in browser)](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 ## Steps
 
@@ -621,14 +622,23 @@ Paste this code inside home.jsp
 
 #### Test REST Urls
 
-* Open Your Browser or Post Man 
-* Paste the URl
+* Open Your Browser type [http://localhost:8080/restfulwebservice/](http://localhost:8080/restfulwebservice/)
+
+![HomePage](/Assets/SpringWebService/homePage.png?raw=true "homePage")
+
+* Paste the Test URls in Address bars (Optional Instead of Browser you may try in POSTMAN)
                 
-      http://localhost:8080/restfulwebservice/addEmployee/?emp_AGE=21&emp_PASSWORD=mypassword123&emp_NAME=Rajesh
+* **Add** - [http://localhost:8080/restfulwebservice/addEmployee/?emp_AGE=21&emp_PASSWORD=mypassword123&emp_NAME=Rajesh](http://localhost:8080/restfulwebservice/addEmployee/?emp_AGE=21&emp_PASSWORD=mypassword123&emp_NAME=Rajesh)
+* **Update** - [http://localhost:8080/restfulwebservice/addEmployee/?emp_AGE=21&emp_PASSWORD=mypassword123&emp_NAME=Rajesh](http://localhost:8080/restfulwebservice/addEmployee/?emp_AGE=21&emp_PASSWORD=mypassword123&emp_NAME=Rajesh)
+* **Delete** - [http://localhost:8080/restfulwebservice/deleteEmployee/?emp_ID=5">DELETE</a>                - http://localhost:8080/restfulwebservice/deleteEmployee/?emp_ID=5](http://localhost:8080/restfulwebservice/deleteEmployee/?emp_ID=5">DELETE</a>                - http://localhost:8080/restfulwebservice/deleteEmployee/?emp_ID=5)
+ * **GET ALL EMPLOYEE JSON** - [http://localhost:8080/restfulwebservice/getAllEmployee](http://localhost:8080/restfulwebservice/getAllEmployee)
+* **GET ALL EMPLOYEE** - [http://localhost:8080/restfulwebservice/getAllEmployeeList](http://localhost:8080/restfulwebservice/getAllEmployeeList)
+* **GET EMPLOYEE JSON** - [http://localhost:8080/restfulwebservice/getEmployee?emp_ID=2](http://localhost:8080/restfulwebservice/getEmployee?emp_ID=2)
+* **GET EMPLOYEE Object** - [http://localhost:8080/restfulwebservice/getEmployeeObject?emp_ID=2](http://localhost:8080/restfulwebservice/getEmployeeObject?emp_ID=2)
       
 ### Final Result
 
-   ![HomePage](/Assets/SpringWebService/homePage.png?raw=true "homePage")
+   ![Broweser Result](/Assets/SpringWebService/browser.png?raw=true "Broweser Result")
    
    ![Postman](/Assets/SpringWebService/postmantest.png?raw=true "Postman")
 
