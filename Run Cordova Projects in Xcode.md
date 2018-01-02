@@ -43,7 +43,6 @@
 
       $ cordova build ios
      
-
     It will Builds the Cordova Project for IOS. 
 
 
