@@ -6,5 +6,4 @@
  
  * [Get Started RESTful Web Services in SPRING](https://github.com/gotoark/How-to/blob/master/Get%20Started%20RESTful%20Web%20Services%20in%20SPRING.md)
  
- <script src="https://gist.github.com/gotoark/ccdd563a1e0e3bfbdf3622ef48fa23b8.js"></script>
-
+ 
